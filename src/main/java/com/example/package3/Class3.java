@@ -9,8 +9,8 @@ public class Class3 {
 
     public void testMultiplicacao() {
         Class1 class1 = new Class1();
-        int soma = class1.soma(5, 3);
-        int resultado = multiplica(soma, 10);
+        int soma = class1.soma(5, 10);
+        int resultado = multiplica(soma, 2);
 
         if(resultado > 20) {
             System.out.println("Debug");
